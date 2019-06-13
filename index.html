@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <script>
+        function doiXung(str) {
+            for (i=0;i<str.length;i++){
+                if(str[i]==str[str.length-1-i]){
+                    return true
+                }
+                else return false;
+            }
+        }
+        let string = prompt("Nhap vao chuoi");
+        ketqua = doiXung(string);
+        alert(ketqua);
+    </script>
+</body>
+</html>
